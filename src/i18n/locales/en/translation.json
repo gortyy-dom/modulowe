@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "models": "Models",
+    "inventory": "Inventory",
+    "about": "About"
+  },
+  "hero": {
+    "title": "MODULAR HOUSES",
+    "subtitle": "INTRODUCING THE ALL NEW",
+    "description": "FULLY EQUIPPED FOR THE PURSUIT OF",
+    "cta": "YOUR ARCHITECTURAL ADVENTURE VESSEL",
+    "tagline": "Architectural elegance meets superior quality and off-grid functionality in a uniquely designed modular home. Crafted with precision and care.",
+    "button": "LEARN MORE"
+  },
+  "models": {
+    "title": "EXPLORE OUR MODELS",
+    "explore": "EXPLORE",
+    "sleeps": "Sleeps up to"
+  },
+  "inventory": {
+    "title": "AVAILABLE INVENTORY",
+    "available": "AVAILABLE NOW",
+    "comingSoon": "COMING SOON",
+    "noInventory": "No units currently available. Please contact us for more information."
+  },
+  "about": {
+    "title": "ABOUT US",
+    "company": {
+      "title": "Company",
+      "description": "We specialize in creating innovative modular homes that combine modern design with sustainable living. Our team of architects and builders work together to deliver exceptional quality and craftsmanship."
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "description": "Explore our completed projects and see how we've transformed the concept of modular living into beautiful, functional homes."
+    },
+    "media": {
+      "title": "Media",
+      "description": "Featured in leading design and architecture publications, our work has been recognized for innovation and excellence."
+    },
+    "faq": {
+      "title": "FAQ",
+      "description": "Find answers to common questions about our modular homes, the building process, and what to expect."
+    }
+  },
+  "contact": {
+    "title": "GET IN TOUCH",
+    "subtitle": "Send us a message",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "product": "I'm interested in",
+      "message": "Message",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thank you! Your message has been sent.",
+      "error": "Something went wrong. Please try again."
+    },
+    "validation": {
+      "nameRequired": "Name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email",
+      "phoneRequired": "Phone is required",
+      "productRequired": "Please select a product",
+      "messageRequired": "Message is required"
+    }
+  },
+  "footer": {
+    "madeIn": "PROUDLY MADE WITH PRECISION",
+    "getInTouch": "GET IN TOUCH",
+    "contactViaSocials": "Contact us via our social media channels",
+    "copyright": "© 2025 Essa Domy. All rights reserved."
+  },
+  "products": {
+    "compact": "Compact",
+    "family": "Family",
+    "luxury": "Luxury",
+    "studio": "Studio",
+    "selectProduct": "Select a product"
+  },
+  "modelDetail": {
+    "back": "Back to Models",
+    "backToHome": "Back to Home",
+    "notFound": "Model not found",
+    "size": "Size",
+    "bedrooms": "Bedrooms",
+    "features": "Features"
+  }
+}
+

@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "models": "Modele",
+    "inventory": "Magazyn",
+    "about": "O nas"
+  },
+  "hero": {
+    "title": "DOMY MODUŁOWE",
+    "subtitle": "PRZEDSTAWIAMY NOWOŚĆ",
+    "description": "W PEŁNI WYPOSAŻONE DLA",
+    "cta": "TWOJEJ ARCHITEKTONICZNEJ PRZYGODY",
+    "tagline": "Elegancja architektoniczna spotyka się z najwyższą jakością i funkcjonalnością off-grid w unikalnie zaprojektowanym domu modułowym. Wykonane z precyzją i dbałością.",
+    "button": "DOWIEDZ SIĘ WIĘCEJ"
+  },
+  "models": {
+    "title": "POZNAJ NASZE MODELE",
+    "explore": "POZNAJ",
+    "sleeps": "Miejsce dla"
+  },
+  "inventory": {
+    "title": "DOSTĘPNE ZAPASY",
+    "available": "DOSTĘPNE TERAZ",
+    "comingSoon": "WKRÓTCE",
+    "noInventory": "Obecnie brak dostępnych jednostek. Skontaktuj się z nami, aby uzyskać więcej informacji."
+  },
+  "about": {
+    "title": "O NAS",
+    "company": {
+      "title": "Firma",
+      "description": "Specjalizujemy się w tworzeniu innowacyjnych domów modułowych, które łączą nowoczesny design ze zrównoważonym życiem. Nasz zespół architektów i budowniczych współpracuje, aby zapewnić wyjątkową jakość i rzemiosło."
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "description": "Zobacz nasze ukończone projekty i przekonaj się, jak przekształciliśmy koncepcję życia modułowego w piękne, funkcjonalne domy."
+    },
+    "media": {
+      "title": "Media",
+      "description": "Prezentowane w czołowych publikacjach dotyczących designu i architektury, nasza praca została doceniona za innowacyjność i doskonałość."
+    },
+    "faq": {
+      "title": "FAQ",
+      "description": "Znajdź odpowiedzi na najczęściej zadawane pytania dotyczące naszych domów modułowych, procesu budowy i tego, czego można się spodziewać."
+    }
+  },
+  "contact": {
+    "title": "SKONTAKTUJ SIĘ Z NAMI",
+    "subtitle": "Wyślij nam wiadomość",
+    "form": {
+      "name": "Imię",
+      "email": "Email",
+      "phone": "Telefon",
+      "product": "Jestem zainteresowany",
+      "message": "Wiadomość",
+      "submit": "Wyślij wiadomość",
+      "sending": "Wysyłanie...",
+      "success": "Dziękujemy! Twoja wiadomość została wysłana.",
+      "error": "Coś poszło nie tak. Spróbuj ponownie."
+    },
+    "validation": {
+      "nameRequired": "Imię jest wymagane",
+      "emailRequired": "Email jest wymagany",
+      "emailInvalid": "Proszę podać prawidłowy email",
+      "phoneRequired": "Telefon jest wymagany",
+      "productRequired": "Proszę wybrać produkt",
+      "messageRequired": "Wiadomość jest wymagana"
+    }
+  },
+  "footer": {
+    "madeIn": "Z DUMĄ WYKONANE Z PRECYZJĄ",
+    "getInTouch": "SKONTAKTUJ SIĘ Z NAMI",
+    "contactViaSocials": "Skontaktuj się z nami przez nasze kanały społecznościowe",
+    "copyright": "© 2025 Essa Domy. Wszelkie prawa zastrzeżone."
+  },
+  "products": {
+    "compact": "Kompaktowy",
+    "family": "Rodzinny",
+    "luxury": "Luksusowy",
+    "studio": "Studio",
+    "selectProduct": "Wybierz produkt"
+  },
+  "modelDetail": {
+    "back": "Powrót do Modeli",
+    "backToHome": "Powrót do Strony Głównej",
+    "notFound": "Model nie został znaleziony",
+    "size": "Rozmiar",
+    "bedrooms": "Sypialnie",
+    "features": "Cechy"
+  }
+}
+

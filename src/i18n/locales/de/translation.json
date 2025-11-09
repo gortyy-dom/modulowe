@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "models": "Modelle",
+    "inventory": "Lager",
+    "about": "Über uns"
+  },
+  "hero": {
+    "title": "MODULARE HÄUSER",
+    "subtitle": "STELLEN VOR: DAS NEUE",
+    "description": "VOLL AUSGESTATTET FÜR DIE VERFOLGUNG VON",
+    "cta": "IHREM ARCHITEKTONISCHEN ABENTEUER",
+    "tagline": "Architektonische Eleganz trifft auf höchste Qualität und Off-Grid-Funktionalität in einem einzigartig gestalteten modularen Zuhause. Mit Präzision und Sorgfalt gefertigt.",
+    "button": "MEHR ERFAHREN"
+  },
+  "models": {
+    "title": "ENTDECKEN SIE UNSERE MODELLE",
+    "explore": "ENTDECKEN",
+    "sleeps": "Schläft bis zu"
+  },
+  "inventory": {
+    "title": "VERFÜGBARES LAGER",
+    "available": "JETZT VERFÜGBAR",
+    "comingSoon": "BALD ERHÄLTLICH",
+    "noInventory": "Derzeit sind keine Einheiten verfügbar. Bitte kontaktieren Sie uns für weitere Informationen."
+  },
+  "about": {
+    "title": "ÜBER UNS",
+    "company": {
+      "title": "Unternehmen",
+      "description": "Wir spezialisieren uns auf die Schaffung innovativer modularer Häuser, die modernes Design mit nachhaltigem Leben verbinden. Unser Team aus Architekten und Bauherren arbeitet zusammen, um außergewöhnliche Qualität und Handwerkskunst zu liefern."
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "description": "Entdecken Sie unsere abgeschlossenen Projekte und sehen Sie, wie wir das Konzept des modularen Wohnens in schöne, funktionale Häuser verwandelt haben."
+    },
+    "media": {
+      "title": "Medien",
+      "description": "In führenden Design- und Architekturpublikationen vorgestellt, wurde unsere Arbeit für Innovation und Exzellenz anerkannt."
+    },
+    "faq": {
+      "title": "FAQ",
+      "description": "Finden Sie Antworten auf häufige Fragen zu unseren modularen Häusern, dem Bauprozess und was Sie erwarten können."
+    }
+  },
+  "contact": {
+    "title": "KONTAKTIEREN SIE UNS",
+    "subtitle": "Senden Sie uns eine Nachricht",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "product": "Ich interessiere mich für",
+      "message": "Nachricht",
+      "submit": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "success": "Vielen Dank! Ihre Nachricht wurde gesendet.",
+      "error": "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut."
+    },
+    "validation": {
+      "nameRequired": "Name ist erforderlich",
+      "emailRequired": "E-Mail ist erforderlich",
+      "emailInvalid": "Bitte geben Sie eine gültige E-Mail ein",
+      "phoneRequired": "Telefon ist erforderlich",
+      "productRequired": "Bitte wählen Sie ein Produkt",
+      "messageRequired": "Nachricht ist erforderlich"
+    }
+  },
+  "footer": {
+    "madeIn": "MIT STOLZ MIT PRÄZISION HERGESTELLT",
+    "getInTouch": "KONTAKTIEREN SIE UNS",
+    "contactViaSocials": "Kontaktieren Sie uns über unsere Social-Media-Kanäle",
+    "copyright": "© 2025 Essa Domy. Alle Rechte vorbehalten."
+  },
+  "products": {
+    "compact": "Kompakt",
+    "family": "Familie",
+    "luxury": "Luxus",
+    "studio": "Studio",
+    "selectProduct": "Produkt auswählen"
+  },
+  "modelDetail": {
+    "back": "Zurück zu Modellen",
+    "backToHome": "Zurück zur Startseite",
+    "notFound": "Modell nicht gefunden",
+    "size": "Größe",
+    "bedrooms": "Schlafzimmer",
+    "features": "Merkmale"
+  }
+}
+
