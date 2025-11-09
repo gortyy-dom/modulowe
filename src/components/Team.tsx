@@ -12,19 +12,19 @@ const teamMembers: TeamMember[] = [
     id: '1',
     name: 'Jan Barda',
     role: 'Lead Architect',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop',
+    image: 'https://bacqhxj217ztg61p.public.blob.vercel-storage.com/images/1507003211169-0a1dd7228f2d.jpg',
   },
   {
     id: '2',
     name: 'Szymon Krzysztof',
     role: 'Project Manager',
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop',
+    image: 'https://bacqhxj217ztg61p.public.blob.vercel-storage.com/images/1494790108377-be9c29b29330.jpg',
   },
   {
     id: '3',
     name: 'Dariusz Kowalczyk',
     role: 'Construction Lead',
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop',
+    image: 'https://bacqhxj217ztg61p.public.blob.vercel-storage.com/images/1472099645785-5658abf4ff4e.jpg',
   },
 ]
 
@@ -50,7 +50,7 @@ export const Team = () => {
                   className="w-full h-full object-cover"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement
-                    target.src = 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop'
+                    target.src = 'https://bacqhxj217ztg61p.public.blob.vercel-storage.com/images/1507003211169-0a1dd7228f2d.jpg'
                   }}
                 />
               </div>

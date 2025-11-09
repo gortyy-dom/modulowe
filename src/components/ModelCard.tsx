@@ -26,7 +26,7 @@ export const ModelCard = ({ product }: ModelCardProps) => {
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
           onError={(e) => {
             const target = e.target as HTMLImageElement
-            target.src = 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800'
+            target.src = 'https://bacqhxj217ztg61p.public.blob.vercel-storage.com/images/1600585154340-be6161a56a0c.jpg'
           }}
         />
       </div>

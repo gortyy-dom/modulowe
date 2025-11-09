@@ -16,7 +16,7 @@ export const Hero = () => {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920')",
+          backgroundImage: "url('https://bacqhxj217ztg61p.public.blob.vercel-storage.com/images/1600585154340-be6161a56a0c.jpg')",
         }}
       >
         <div className="absolute inset-0 bg-black/60" />
