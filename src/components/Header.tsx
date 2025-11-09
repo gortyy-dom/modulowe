@@ -71,7 +71,7 @@ export const Header = () => {
           >
             <img 
               src="/logo-black.svg" 
-              alt="The Nordark" 
+              alt="The NorDark" 
               className="h-20 md:h-24 w-auto"
             />
           </button>
