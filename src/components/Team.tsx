@@ -10,19 +10,19 @@ interface TeamMember {
 const teamMembers: TeamMember[] = [
   {
     id: '1',
-    name: 'John Smith',
+    name: 'Jan Barda',
     role: 'Lead Architect',
     image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop',
   },
   {
     id: '2',
-    name: 'Sarah Johnson',
+    name: 'Szymon Krzysztof',
     role: 'Project Manager',
     image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop',
   },
   {
     id: '3',
-    name: 'Michael Brown',
+    name: 'Dariusz Kowalczyk',
     role: 'Construction Lead',
     image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop',
   },
