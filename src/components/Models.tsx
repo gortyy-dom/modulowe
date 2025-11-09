@@ -6,9 +6,9 @@ export const Models = () => {
   const { t } = useTranslation()
 
   return (
-    <section id="models" className="py-20 bg-white scroll-mt-20">
+    <section id="models" className="py-20 bg-black scroll-mt-20">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 uppercase tracking-wide">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 uppercase tracking-wide text-white">
           {t('models.title')}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

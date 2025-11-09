@@ -62,14 +62,18 @@ export const Header = () => {
   }
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-black shadow-sm">
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <button
             onClick={scrollToTop}
-            className="text-2xl font-bold text-black hover:opacity-80 transition-opacity cursor-pointer"
+            className="hover:opacity-80 transition-opacity cursor-pointer"
           >
-            ESSA DOMY
+            <img 
+              src="/logo-black.svg" 
+              alt="The Nordark" 
+              className="h-20 md:h-24 w-auto"
+            />
           </button>
 
           <div className="hidden md:flex items-center gap-8">
@@ -79,8 +83,8 @@ export const Header = () => {
                 onClick={() => scrollToSection(item.id)}
                 className={`text-sm font-medium uppercase tracking-wide transition-colors ${
                   activeSection === item.id
-                    ? 'text-black border-b-2 border-black'
-                    : 'text-gray-600 hover:text-black'
+                    ? 'text-white border-b-2 border-white'
+                    : 'text-gray-400 hover:text-white'
                 }`}
               >
                 {t(`nav.${item.key}`)}
@@ -90,7 +94,7 @@ export const Header = () => {
           </div>
 
           <button
-            className="md:hidden p-2"
+            className="md:hidden p-2 text-white"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -126,7 +130,7 @@ export const Header = () => {
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
                 className={`block w-full text-left text-sm font-medium uppercase tracking-wide ${
-                  activeSection === item.id ? 'text-black' : 'text-gray-600'
+                  activeSection === item.id ? 'text-white' : 'text-gray-400'
                 }`}
               >
                 {t(`nav.${item.key}`)}

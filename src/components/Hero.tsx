@@ -11,7 +11,7 @@ export const Hero = () => {
   }
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gray-100 pt-20">
+    <section className="relative min-h-screen flex items-center justify-center bg-black pt-20">
       <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-transparent" />
       <div
         className="absolute inset-0 bg-cover bg-center"
@@ -19,7 +19,7 @@ export const Hero = () => {
           backgroundImage: "url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920')",
         }}
       >
-        <div className="absolute inset-0 bg-black/40" />
+        <div className="absolute inset-0 bg-black/60" />
       </div>
 
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
@@ -40,7 +40,7 @@ export const Hero = () => {
         </p>
         <button
           onClick={scrollToModels}
-          className="inline-block px-8 py-3 bg-white text-black font-semibold uppercase tracking-wide hover:bg-gray-100 transition-colors cursor-pointer"
+          className="inline-block px-8 py-3 bg-white text-black font-semibold uppercase tracking-wide hover:bg-gray-200 transition-colors cursor-pointer"
         >
           {t('hero.button')}
         </button>

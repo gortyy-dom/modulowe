@@ -16,10 +16,10 @@ export const ModelCard = ({ product }: ModelCardProps) => {
 
   return (
     <div
-      className="group relative overflow-hidden bg-white shadow-lg hover:shadow-xl transition-shadow cursor-pointer"
+      className="group relative overflow-hidden bg-gradient-to-br from-olive-800 to-black shadow-lg hover:shadow-xl transition-shadow cursor-pointer border border-gray-800"
       onClick={handleClick}
     >
-      <div className="aspect-[4/3] overflow-hidden bg-gray-200">
+      <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-olive-900 to-black">
         <img
           src={product.image}
           alt={product.name}
@@ -31,11 +31,11 @@ export const ModelCard = ({ product }: ModelCardProps) => {
         />
       </div>
       <div className="p-6">
-        <h3 className="text-2xl font-bold mb-2">{product.name}</h3>
-        <p className="text-gray-600 mb-4">
+        <h3 className="text-2xl font-bold mb-2 text-white">{product.name}</h3>
+        <p className="text-gray-400 mb-4">
           {t('models.sleeps')} {product.bedrooms}
         </p>
-        <ul className="space-y-2 mb-6 text-sm text-gray-700">
+        <ul className="space-y-2 mb-6 text-sm text-gray-300">
           {product.features.slice(0, 3).map((feature, index) => (
             <li key={index} className="flex items-start">
               <span className="mr-2">•</span>

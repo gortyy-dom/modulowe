@@ -32,11 +32,11 @@ export const ModelDetail = () => {
   }
 
   return (
-    <div className="pt-20 pb-20">
+    <div className="pt-20 pb-20 bg-black min-h-screen">
       <div className="container mx-auto px-4">
         <button
           onClick={() => navigate('/#models')}
-          className="mb-8 text-gray-600 hover:text-black transition-colors uppercase tracking-wide text-sm"
+          className="mb-8 text-gray-400 hover:text-white transition-colors uppercase tracking-wide text-sm"
         >
           ← {t('modelDetail.back')}
         </button>
@@ -61,8 +61,8 @@ export const ModelDetail = () => {
                   onClick={() => setSelectedImageIndex(index)}
                   className={`aspect-square overflow-hidden border-2 transition-all ${
                     selectedImageIndex === index
-                      ? 'border-black'
-                      : 'border-transparent hover:border-gray-300'
+                      ? 'border-white'
+                      : 'border-transparent hover:border-gray-600'
                   }`}
                 >
                   <img
@@ -80,11 +80,11 @@ export const ModelDetail = () => {
           </div>
 
           <div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 uppercase tracking-wide">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 uppercase tracking-wide text-white">
               {product.name}
             </h1>
-            <p className="text-xl text-gray-600 mb-6">{product.description}</p>
-            <p className="text-gray-700 leading-relaxed mb-8 text-lg">
+            <p className="text-xl text-gray-400 mb-6">{product.description}</p>
+            <p className="text-gray-300 leading-relaxed mb-8 text-lg">
               {product.detailedDescription}
             </p>
 
@@ -93,27 +93,27 @@ export const ModelDetail = () => {
                 <h3 className="text-sm font-bold uppercase tracking-wide mb-2 text-gray-500">
                   {t('modelDetail.size')}
                 </h3>
-                <p className="text-2xl font-bold">{product.size}</p>
+                <p className="text-2xl font-bold text-white">{product.size}</p>
               </div>
               <div>
                 <h3 className="text-sm font-bold uppercase tracking-wide mb-2 text-gray-500">
                   {t('modelDetail.bedrooms')}
                 </h3>
-                <p className="text-2xl font-bold">
+                <p className="text-2xl font-bold text-white">
                   {t('models.sleeps')} {product.bedrooms}
                 </p>
               </div>
             </div>
 
             <div>
-              <h3 className="text-lg font-bold uppercase tracking-wide mb-4">
+              <h3 className="text-lg font-bold uppercase tracking-wide mb-4 text-white">
                 {t('modelDetail.features')}
               </h3>
               <ul className="space-y-3">
                 {product.features.map((feature, index) => (
                   <li key={index} className="flex items-start">
-                    <span className="mr-3 text-black font-bold">•</span>
-                    <span className="text-gray-700">{feature}</span>
+                    <span className="mr-3 text-white font-bold">•</span>
+                    <span className="text-gray-300">{feature}</span>
                   </li>
                 ))}
               </ul>

@@ -1,4 +1,4 @@
-# Essa Domy Landing Page
+# The Nordark Landing Page
 
 A modern, multilingual landing page for modular houses built with React, Vite, and TypeScript.
 
