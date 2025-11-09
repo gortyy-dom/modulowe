@@ -85,6 +85,9 @@
     "size": "Size",
     "bedrooms": "Bedrooms",
     "features": "Features"
+  },
+  "team": {
+    "title": "OUR TEAM"
   }
 }
 

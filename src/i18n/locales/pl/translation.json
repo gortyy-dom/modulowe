@@ -85,6 +85,9 @@
     "size": "Rozmiar",
     "bedrooms": "Sypialnie",
     "features": "Cechy"
+  },
+  "team": {
+    "title": "NASZ ZESPÓŁ"
   }
 }
 

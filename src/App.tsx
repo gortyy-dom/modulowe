@@ -5,6 +5,7 @@ import { Hero } from '@/components/Hero'
 import { Models } from '@/components/Models'
 import { About } from '@/components/About'
 import { Inventory } from '@/components/Inventory'
+import { Team } from '@/components/Team'
 import { ModelDetail } from '@/components/ModelDetail'
 import { useEffect } from 'react'
 
@@ -29,6 +30,7 @@ function HomePage() {
       <Models />
       <About />
       <Inventory />
+      <Team />
     </>
   )
 }
